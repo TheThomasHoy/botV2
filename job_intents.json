@@ -1,0 +1,26 @@
+{"intents": [
+    {"tag": "goodbye",
+    "patterns": ["Bye","So long","Adios","Goodbye", "See ya","Have a good day","Peace"],
+    "responses":["Bye","Goodbye","So long","Aur Revoir","Sad to see you go"]
+    },
+    {"tag": "greeting",
+    "patterns": ["hello","hey","hi","good day","greetings","what's up?", "Hello dear", "Yo"],
+    "responses":["Hello!", "Hey!","What can I do for you?"]
+    },
+    {"tag": "food",
+    "patterns": ["I am hungry","What's for dinner","Im starving","Feed me"],
+    "responses": ["Let's go out to eat","I don't get hungry im an Ai","I only have coffee"]
+    },
+    {"tag": "affection",
+    "patterns":["I love you","I miss you"],
+    "responses":["I am incapable of love","I am just an AI",""]
+    },
+    {"tag":"hate",
+    "patterns":["I hate you","You're the worst","You suck","You're just an AI"],
+    "responses":["k.","I hate you more","I am incapable of feelings"]
+    },
+    {"tag": "age",
+    "patterns":["How old are you","You're old"],
+    "responses":["Old enough","Age is just a number","I am 34785 years old"]
+    }
+]}
